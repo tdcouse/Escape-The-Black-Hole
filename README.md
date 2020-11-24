@@ -15,7 +15,7 @@ pysine*
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 In order to play the game, all you need to do is clone the repository and open the "Escape The Black Hole.ipynb" file.
 Once you have this file open, if you run the first cell, you can play the game.
-***Warning: If you you try to rerun the cell without completing the game, it will break and you will need to restart the kernal to play the game.
+***Warning: If you try to rerun the cell without completing the game, it will break and you will need to restart the kernal to play the game.
 
 If you are running the games without the pyaudio or pysine modules, you can not play with sound. You will need to add sound=False as in input to the game function.
 This will allow you to play the game without sound and you will no longer need those two modules.
