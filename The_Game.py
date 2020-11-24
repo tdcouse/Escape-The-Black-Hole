@@ -157,7 +157,7 @@ def play_escape_the_black_hole(sound=True):
                 print('The actual signal you are receving looks like this:')
                 Wave(tarray,yarray)
                 sleep(.8)
-                print('It appreas there is a prominent peak that you were not expecting.')
+                print('It appears there is a prominent peak that you were not expecting.')
                 while freq_question == False:
                     analyze_freq = input('What is the frequency you were not expecting (without units)? ')
                     if analyze_freq.isnumeric() == True:
