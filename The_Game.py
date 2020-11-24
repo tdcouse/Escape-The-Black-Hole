@@ -62,7 +62,7 @@ def play_escape_the_black_hole(sound=True):
                             question_2 == True
                             print('You have no idea what is wrong and now you begin to hear creaking on one side of the ship. You feel some weird force on your body and you feel queasy. Suddenly you hear a loud crash for a fraction of a second, then immediate silence: one side of your ship has been ripped apart from the rest and you are now subject to the black hole that you were oblivious to until that very moment.')
                             print('Displaying Ships Trajectory...')
-                            with open('do_nothing.gif','rb') as file:
+                            with open('do_nothing_edited.gif','rb') as file:
                                 display(Image(file.read()))
                             alive = False #you died
                             break
@@ -84,7 +84,7 @@ def play_escape_the_black_hole(sound=True):
                         question_3 = True
                         print('As you ship tumbles closer to the black hole, the immense force ejects you from your ship and you begin the process of spaghetification headfirst.')
                         print('Displaying Ships Trajectory...')
-                        with open('do_nothing.gif','rb') as file:
+                        with open('do_nothing_edited.gif','rb') as file:
                             display(Image(file.read()))
                         alive = False #you died
                         break
@@ -96,7 +96,7 @@ def play_escape_the_black_hole(sound=True):
 
                 print('You now have one chance to alter the ship\'s thrusters to escape the stellar mass which you now know is a black hole after looking out the window and seeing pitch black. What speed do you choose to attempt to escape?')
                 while question_4 == False:
-                    esc_vel = input('(1) 1.016c\n(2) 0.992c\n(3) 0.985c\n(4) 0.973c?\n')
+                    esc_vel = input('(1) 1.016c\n(2) 0.992c\n(3) 0.985c\n(4) 0.973c\n')
                     if esc_vel == '1' or esc_vel == '1.016c' or esc_vel == '1 ' or esc_vel == '(1) 1.016c':
                         question_4 = True
                         print('You have attempted to violate the laws of physics - for this, you die.')
@@ -109,14 +109,14 @@ def play_escape_the_black_hole(sound=True):
                     elif esc_vel == '3' or esc_vel=='0.985c' or esc_vel == '3 ' or esc_vel == '(3) 0.985c':
                         question_4 = True
                         print('While you were traveling extremely fast, it was not enough to escape the tremendous pull of the black hole. You and your ship get pulled into the black hole as you are slowly spaghettified.')
-                        with open('black_hole_985.gif','rb') as file:
+                        with open('black_hole_985_edited.gif','rb') as file:
                            display(Image(file.read()))
                         alive = False
                         break
                     elif esc_vel == '4' or esc_vel=='0.973c' or esc_vel == '4 ' or esc_vel == '(4) 0.973c':
                         question_4 = True
                         print('While you were traveling extremely fast, it was not enough to escape the tremendous pull of the black hole. You and your ship get pulled into the black hole as you are slowly spaghettified.')
-                        with open('black_hole_973.gif','rb') as file:
+                        with open('black_hole_973_edited.gif','rb') as file:
                            display(Image(file.read()))
                         alive = False
                         break
@@ -126,7 +126,7 @@ def play_escape_the_black_hole(sound=True):
                     break
 
                 print('You speed away from the black hole to safety.')
-                with open('black_hole_992.gif','rb') as file:
+                with open('black_hole_992_edited.gif','rb') as file:
                             display(Image(file.read()))
                 sleep(0.5)
                 print('You can now roam the ship freely without a worry. Would you like to visit the lab or go to sleep?')
@@ -140,7 +140,7 @@ def play_escape_the_black_hole(sound=True):
                     elif activity == '2' or activity == '2 ' or activity=='sleep' or activity=='Sleep':
                         question_5 = True
                         print('You go to sleep, and when you wake up you are on an alien spaceship. They intersected your ship while you were sleeping.')
-                        with open('alien_intersect.gif','rb') as file:
+                        with open('alien_intersect_edited.gif','rb') as file:
                             display(Image(file.read()))
                             sleep(2)
                         print('You feel as if you are under the influence of a drug you have never experienced and you\'re unable to understand the aliens speaking about what they are going to do to you. You do not last long on the alien ship and no human will ever see you again.')
@@ -189,13 +189,13 @@ def play_escape_the_black_hole(sound=True):
                                 question_7=True
                                 print('As the object gets closer you see it is an alien ship, at which point you are no longer able to speed away in any direction, you are trapped in a tractor beam. You see a sudden flash of light and you are immediately unconscious. When you wake up, you are on an alien spaceship and you feel as if you are under the influence of a drug you have never experienced, and you are unable to understand the aliens speaking about what they are going to do to you. You do not last long on the alien ship. No human will ever see you again.')
                                 alive=False
-                                with open('alien_intersect.gif','rb') as file:
+                                with open('alien_intersect_edited.gif','rb') as file:
                                     display(Image(file.read())) # captured
                                 break
                             elif stay_or_leave=='2'or stay_or_leave=='Leave' or stay_or_leave=='2 'or stay_or_leave=='leave':
                                 question_7=True
                                 print('You avoid what you believed to be a hostile situation and you played it safe.')
-                                with open('alien_escape.gif','rb') as file:
+                                with open('alien_escape_edited_edited_edited.gif','rb') as file:
                                     display(Image(file.read()))  # Escape  
                                 continue
                             else:
@@ -338,7 +338,7 @@ def play_escape_the_black_hole(sound=True):
                             question_2 == True
                             print('You have no idea what is wrong and now you begin to hear creaking on one side of the ship. You feel some weird force on your body and you feel queasy. Suddenly you hear a loud crash for a fraction of a second, then immediate silence: one side of your ship has been ripped apart from the rest and you are now subject to the black hole that you were oblivious to until that very moment.')
                             print('Displaying Ships Trajectory...')
-                            with open('do_nothing.gif','rb') as file:
+                            with open('do_nothing_edited.gif','rb') as file:
                                 display(Image(file.read()))
                             alive = False #you died
                             break
@@ -360,7 +360,7 @@ def play_escape_the_black_hole(sound=True):
                         question_3 = True
                         print('As you ship tumbles closer to the black hole, the immense force ejects you from your ship and you begin the process of spaghetification headfirst.')
                         print('Displaying Ships Trajectory...')
-                        with open('do_nothing.gif','rb') as file:
+                        with open('do_nothing_edited.gif','rb') as file:
                             display(Image(file.read()))
                         alive = False #you died
                         break
@@ -372,7 +372,7 @@ def play_escape_the_black_hole(sound=True):
 
                 print('You now have one chance to alter the ship\'s thrusters to escape the stellar mass which you now know is a black hole after looking out the window and seeing pitch black. What speed do you choose to attempt to escape?')
                 while question_4 == False:
-                    esc_vel = input('(1) 1.016c\n(2) 0.992c\n(3) 0.985c\n(4) 0.973c?\n')
+                    esc_vel = input('(1) 1.016c\n(2) 0.992c\n(3) 0.985c\n(4) 0.973c\n')
                     if esc_vel == '1' or esc_vel == '1.016c' or esc_vel == '1 ' or esc_vel == '(1) 1.016c':
                         question_4 = True
                         print('You have attempted to violate the laws of physics - for this, you die.')
@@ -385,14 +385,14 @@ def play_escape_the_black_hole(sound=True):
                     elif esc_vel == '3' or esc_vel=='0.985c' or esc_vel == '3 ' or esc_vel == '(3) 0.985c':
                         question_4 = True
                         print('While you were traveling extremely fast, it was not enough to escape the tremendous pull of the black hole. You and your ship get pulled into the black hole as you are slowly spaghettified.')
-                        with open('black_hole_985.gif','rb') as file:
+                        with open('black_hole_985_edited.gif','rb') as file:
                            display(Image(file.read()))
                         alive = False
                         break
                     elif esc_vel == '4' or esc_vel=='0.973c' or esc_vel == '4 ' or esc_vel == '(4) 0.973c':
                         question_4 = True
                         print('While you were traveling extremely fast, it was not enough to escape the tremendous pull of the black hole. You and your ship get pulled into the black hole as you are slowly spaghettified.')
-                        with open('black_hole_973.gif','rb') as file:
+                        with open('black_hole_973_edited.gif','rb') as file:
                            display(Image(file.read()))
                         alive = False
                         break
@@ -402,7 +402,7 @@ def play_escape_the_black_hole(sound=True):
                     break
 
                 print('You speed away from the black hole to safety.')
-                with open('black_hole_992.gif','rb') as file:
+                with open('black_hole_992_edited.gif','rb') as file:
                             display(Image(file.read()))
                 sleep(0.5)
                 print('You can now roam the ship freely without a worry. Would you like to visit the lab or go to sleep?')
@@ -416,7 +416,7 @@ def play_escape_the_black_hole(sound=True):
                     elif activity == '2' or activity == '2 ' or activity=='sleep' or activity=='Sleep':
                         question_5 = True
                         print('You go to sleep, and when you wake up you are on an alien spaceship. They intersected your ship while you were sleeping.')
-                        with open('alien_intersect.gif','rb') as file:
+                        with open('alien_intersect_edited.gif','rb') as file:
                             display(Image(file.read()))
                             sleep(2)
                         print('You feel as if you are under the influence of a drug you have never experienced and you\'re unable to understand the aliens speaking about what they are going to do to you. You do not last long on the alien ship and no human will ever see you again.')
@@ -465,13 +465,13 @@ def play_escape_the_black_hole(sound=True):
                                 question_7=True
                                 print('As the object gets closer you see it is an alien ship, at which point you are no longer able to speed away in any direction, you are trapped in a tractor beam. You see a sudden flash of light and you are immediately unconscious. When you wake up, you are on an alien spaceship and you feel as if you are under the influence of a drug you have never experienced, and you are unable to understand the aliens speaking about what they are going to do to you. You do not last long on the alien ship. No human will ever see you again.')
                                 alive=False
-                                with open('alien_intersect.gif','rb') as file:
+                                with open('alien_intersect_edited.gif','rb') as file:
                                     display(Image(file.read())) # captured
                                 break
                             elif stay_or_leave=='2'or stay_or_leave=='Leave' or stay_or_leave=='2 'or stay_or_leave=='leave':
                                 question_7=True
                                 print('You avoid what you believed to be a hostile situation and you played it safe.')
-                                with open('alien_escape.gif','rb') as file:
+                                with open('alien_escape_edited_edited_edited.gif','rb') as file:
                                     display(Image(file.read()))  # Escape  
                                 continue
                             else:
