@@ -195,7 +195,7 @@ def play_escape_the_black_hole(sound=True):
                             elif stay_or_leave=='2'or stay_or_leave=='Leave' or stay_or_leave=='2 'or stay_or_leave=='leave':
                                 question_7=True
                                 print('You avoid what you believed to be a hostile situation and you played it safe.')
-                                with open('alien_escape_edited_edited_edited.gif','rb') as file:
+                                with open('alien_escape_edited.gif','rb') as file:
                                     display(Image(file.read()))  # Escape  
                                 continue
                             else:
@@ -471,7 +471,7 @@ def play_escape_the_black_hole(sound=True):
                             elif stay_or_leave=='2'or stay_or_leave=='Leave' or stay_or_leave=='2 'or stay_or_leave=='leave':
                                 question_7=True
                                 print('You avoid what you believed to be a hostile situation and you played it safe.')
-                                with open('alien_escape_edited_edited_edited.gif','rb') as file:
+                                with open('alien_escape_edited.gif','rb') as file:
                                     display(Image(file.read()))  # Escape  
                                 continue
                             else:
