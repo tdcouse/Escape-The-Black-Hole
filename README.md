@@ -23,3 +23,4 @@ This will allow you to play the game without sound and you will no longer need t
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 If you are interested in how our game works, look at the file "The_Game.py" - this is the file we used to run the entire game.
 We produced all the gif's ourselves and how we did that can be seen in the "all_gifs.ipynb" file. We then used a gif editor to compress many of these gifs so they would load faster.
+Both "The_Game.py" and "all_gifs.ipynb" call from the "module.py" file we created which stores some other functions we use throughout.
