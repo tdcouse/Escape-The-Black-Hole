@@ -171,7 +171,7 @@ def play_escape_the_black_hole(sound=True):
                     else:
                         print('Invalid input, please try again.')
 
-                print('You sigle out the unexpected frequency and find')
+                print('You single out the unexpected frequency and find')
                 Wave2(tsmall,ysmall)
                 print(Freq(tsmall,ysmall),'Hz')
                 print('Do you attempt to send the same signal back into space using your own function generator and oscilloscope?')#from text file
